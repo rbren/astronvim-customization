@@ -1,3 +1,9 @@
+vim.api.nvim_create_user_command(
+  'StartCopy',
+  ":set norelativenumber | :set nonumber | :set wrap | :only",
+)
+vim.opt.mouse='nv'
+
 return {
   -- Configure AstroNvim updates
   updater = {
@@ -63,6 +69,7 @@ return {
       },
     },
   },
+  
 
   -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
