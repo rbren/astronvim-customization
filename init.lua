@@ -1,9 +1,3 @@
-vim.api.nvim_create_user_command(
-  'StartCopy',
-  ":set norelativenumber | :set nonumber | :set wrap | :only",
-)
-vim.opt.mouse='nv'
-
 return {
   -- Configure AstroNvim updates
   updater = {
