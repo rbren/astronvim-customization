@@ -18,7 +18,7 @@ return function(local_vim)
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
-    mouse = 'ni',
+    mouse = '',
     tabstop=4,
     softtabstop=2,
     shiftwidth=2,
