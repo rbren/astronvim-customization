@@ -18,7 +18,12 @@ return function(local_vim)
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
-    mouse = 'ni'
+    mouse = 'ni',
+    tabstop=4,
+    softtabstop=2,
+    shiftwidth=2,
+    expandtab,
+    autoindent,
   }
   local_vim.g = {
     mapleader = " ", -- sets vim.g.mapleader
