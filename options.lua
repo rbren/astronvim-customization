@@ -13,17 +13,22 @@ return function(local_vim)
 
   local_vim.opt = {
     -- set to true or false etc.
+    mouse = '',
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
-    mouse = '',
-    tabstop=4,
-    softtabstop=2,
-    shiftwidth=2,
-    expandtab,
-    autoindent,
+    tabstop = 4,
+    softtabstop = 2,
+    shiftwidth = 2,
+    expandtab = true,
+    autoindent = true,
+    showcmd = true,
+    wildmenu = true,
+    wildmode = "longest:full,full",
+    laststatus = 2,
+    colorcolumn = "101",
   }
   local_vim.g = {
     mapleader = " ", -- sets vim.g.mapleader
